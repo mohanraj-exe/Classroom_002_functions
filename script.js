@@ -10,7 +10,24 @@ function oddNos(arr){
     }
     return result
 }
-console.log(oddNos([2,3,4,5]))
+console.log(oddNos([2,3,4,5])) //[3,5]
+
+//b.Convert all the strings to title caps in a string array
+
+function titleCase(arr){
+    var result = []
+    for (let i=0; i<arr.length; i++){
+        
+        var arrResult = []
+        var word = arr[i].split(' ')
+        for (let j=0; j<word.length; j++){
+            arrResult.push(word[j].charAt(0).toUpperCase()+ word[j].substr(1).toLowerCase())
+        }
+        result.push(arrResult.join(' '))
+    }
+    return result
+}
+console.log(titleCase(['mohanraj selvam','maheswari selvam'])) //['Mohanraj Selvam','Maheswari Selvam']
 
 //c.sumOfAll
 function sumOfAll(arr){
@@ -22,4 +39,4 @@ function sumOfAll(arr){
     }
     return sum
 }
-console.log(sumOfAll([2,3,4,5]))
+console.log(sumOfAll([2,3,4,5])) // 14
