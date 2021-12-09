@@ -1,4 +1,5 @@
 //Assignment-2 OddNos Example
+//a.
 function oddNos(arr){
     
     var result = []
