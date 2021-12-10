@@ -52,4 +52,4 @@ function palindrome(arr){
     }
     return result;
 }
-console.log(palindrome([121,232,'eve','exe','dood','asdfgf']))
+console.log(palindrome([121,232,'eve','exe','dood','asdfgf'])) //[121,232,'eve','exe','dood']
