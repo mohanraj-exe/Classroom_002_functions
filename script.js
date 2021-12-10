@@ -39,3 +39,14 @@ function sumOfAll(arr){
     return sum
 }
 console.log(sumOfAll([2,3,4,5])) // 14
+
+//d. Palindrome
+function palindrome(arr){
+    var result = []
+    for (let i=0; i<arr.length; i++){
+        var strReserve;
+        strReserve = arr[i].toString().split().join('')
+        if()
+    }
+}
+palindrome([121,232,'eve','exe','dood','asdfgf'])
