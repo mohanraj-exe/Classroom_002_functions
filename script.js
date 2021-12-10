@@ -13,7 +13,6 @@ function oddNos(arr){
 console.log(oddNos([2,3,4,5])) //[3,5]
 
 //b.Convert all the strings to title caps in a string array
-
 function titleCase(arr){
     var result = []
     for (let i=0; i<arr.length; i++){
