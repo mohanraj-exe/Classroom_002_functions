@@ -40,13 +40,16 @@ function sumOfAll(arr){
 }
 console.log(sumOfAll([2,3,4,5])) // 14
 
-//d. Palindrome
+//d.Return all Panlidrome
 function palindrome(arr){
     var result = []
     for (let i=0; i<arr.length; i++){
         var strReserve;
-        strReserve = arr[i].toString().split().join('')
-        if()
+        strReserve = arr[i].toString().split('').reverse().join('')
+        if(strReserve == arr[i]){
+            result.push(arr[i])
+        }
     }
+    return result;
 }
-palindrome([121,232,'eve','exe','dood','asdfgf'])
+console.log(palindrome([121,232,'eve','exe','dood','asdfgf']))
