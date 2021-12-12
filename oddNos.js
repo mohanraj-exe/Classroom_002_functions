@@ -1,5 +1,5 @@
 //Assignment-2 
-//a.OddNos Example
+//a.oddNos Example
 function oddNos(arr){
     
     var result = []
